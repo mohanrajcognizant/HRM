@@ -18,6 +18,7 @@ namespace HRM.Controllers
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
         private string HRM = string.Empty;
+         private string HRM_Edit = string.Empty;
 
         public AccountController()
         {
